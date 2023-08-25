@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd028f6-12a2-4a84-93c7-e9f8120bb9f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/schwarzbaer/challenges/codewars/java/ParseIntReloaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/schwarzbaer/challenges/codewars/java/ParseIntReloaded.java" beforeDir="false" />
+    <list default="true" id="1dd028f6-12a2-4a84-93c7-e9f8120bb9f8" name="Changes" comment="created maven folder structure and files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/schwarzbaer/challenges/codewars/java/BlockLetterPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/schwarzbaer/challenges/codewars/java/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,11 +60,24 @@
       <option name="presentableId" value="Default" />
       <updated>1692976209886</updated>
       <workItem from="1692976210941" duration="86000" />
-      <workItem from="1692976665975" duration="415000" />
+      <workItem from="1692976665975" duration="1155000" />
     </task>
+    <task id="LOCAL-00001" summary="created maven folder structure and files">
+      <option name="closed" value="true" />
+      <created>1692977138326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692977138326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created maven folder structure and files" />
+    <option name="LAST_COMMIT_MESSAGE" value="created maven folder structure and files" />
   </component>
 </project>
