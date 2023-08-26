@@ -2,6 +2,12 @@ package net.schwarzbaer.challenges.codewars.java;
 
 public class ParseIntReloaded
 {
+	/*
+		4 kyu
+		parseInt() reloaded
+		
+		https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5
+	 */
 	
 	public static void main(String[] args)
 	{
