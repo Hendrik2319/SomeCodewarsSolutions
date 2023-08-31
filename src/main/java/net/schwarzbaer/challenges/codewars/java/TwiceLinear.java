@@ -8,8 +8,8 @@ public class TwiceLinear {
      */
     public static void main(String[] args) {
         test(10, 22);
-        test(20, 57);
         test(30, 91);
+        test(20, 57);
         test(50, 175);
     }
 
@@ -23,15 +23,20 @@ public class TwiceLinear {
 
     static class DoubleLinear
     {
+        private static final Node root = new Node(1,null);
+        private static int lastComputedIndex = -1;
 
         public static int dblLinear (int n)
         {
 
-            Node node = new Node(1,null);
+            Node node = root;
             for (int i=0; i<n; i++)
             {
-                node.insert(2*node.n+1, n-i+1);
-                node.insert(3*node.n+1, n-i+1);
+                if (lastComputedIndex < i) {
+                    node.insert(2*node.n+1);
+                    node.insert(3*node.n+1);
+                    lastComputedIndex = i;
+                }
                 System.out.printf("%d, ", node.n);
                 node = node.next;
             }
@@ -51,20 +56,14 @@ public class TwiceLinear {
                 this.next = next;
             }
 
-            void insert(int n, int maxDistance)
+            void insert(int n)
             {
                 Node node = this;
                 if (node.n >= n)
-                    throw new IllegalStateException(String.format("node[n:%d].insert(%d,%d) ->  !(node.n < n)", node.n, n, maxDistance));
+                    throw new IllegalStateException(String.format("node[n:%d].insert(%d) ->  !(node.n < n)", node.n, n));
 
-                while (maxDistance>0 && node.next!=null && node.next.n<n)
-                {
+                while (node.next!=null && node.next.n<n)
                     node = node.next;
-                    maxDistance--;
-                }
-
-                if (maxDistance<=0)
-                    return;
 
                 if (node.next==null || node.next.n>n)
                     node.next = new Node(n,node.next);
@@ -72,8 +71,7 @@ public class TwiceLinear {
 
             @Override
             public String toString() {
-                if (next==null) return ""+n;
-                return n+" -> "+next;
+                return n + (next==null ? "" : " -> "+next);
             }
         }
     }
