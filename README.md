@@ -4,7 +4,9 @@
 ##### Coaches
 [![](https://www.codewars.com/users/bartfastiel/badges/small?theme=light)](https://www.codewars.com/users/bartfastiel)  
 [![](https://www.codewars.com/users/Flooooooooooorian/badges/small?theme=light)](https://www.codewars.com/users/Flooooooooooorian)  
+[![](https://www.codewars.com/users/Skotti/badges/small?theme=light)](https://www.codewars.com/users/Skotti)  
 [![](https://www.codewars.com/users/ZeshanShahid79/badges/small?theme=light)](https://www.codewars.com/users/ZeshanShahid79)  
+
 ##### Fellow students
 [![](https://www.codewars.com/users/ryliecc/badges/small?theme=light)](https://www.codewars.com/users/ryliecc)  
 [![](https://www.codewars.com/users/FraFle68/badges/small?theme=light)](https://www.codewars.com/users/FraFle68)  
