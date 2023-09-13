@@ -14,6 +14,7 @@
 [![](https://www.codewars.com/users/WeiMingTay/badges/small?theme=light)](https://www.codewars.com/users/WeiMingTay)  
 [![](https://www.codewars.com/users/dennfa/badges/small?theme=light)](https://www.codewars.com/users/dennfa)  
 [![](https://www.codewars.com/users/Joshu4l/badges/small?theme=light)](https://www.codewars.com/users/Joshu4l)  
+[![](https://www.codewars.com/users/Sp1derL1ly/badges/small?theme=light)](https://www.codewars.com/users/Sp1derL1ly)  
 [![](https://www.codewars.com/users/LTschapalda/badges/small?theme=light)](https://www.codewars.com/users/LTschapalda)  
 [![](https://www.codewars.com/users/Dornka/badges/small?theme=light)](https://www.codewars.com/users/Dornka)  
 [![](https://www.codewars.com/users/JoergWolff/badges/small?theme=light)](https://www.codewars.com/users/JoergWolff)  
